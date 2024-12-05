@@ -1,0 +1,101 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar Styling */
+.navbar {
+  background: black;
+  color: #fff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color:crimson
+}
+
+/* Section Styling */
+.section {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.home-section {
+  background: #f9f9f9;
+  color: #333;
+  text-align: left;
+  padding-right: 500px;
+}
+
+.about-section {
+  background: #eaeaea;
+  color: #333;
+  text-align: right;
+  padding-left: 500px;
+}
+
+.contact-section {
+  background: #d4d4d4;
+  color: #333;
+}
+
+/* Content Styling */
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.pembukaan {
+  text-align: justify;
+}
+
+.tentang {
+  text-align: justify;
+}
